@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #f4f4f4;
+  background: #c0bcbcde;
   margin: 0;
   padding: 20px;
   text-align: center;
@@ -39,7 +39,7 @@ button {
   width: 60%;
   margin-bottom: 10px;
   text-align: center;
-  border: 1px solid #ccc;
+  border: 1px solid #cbcbcb;
   border-radius: 4px;
 }
 
