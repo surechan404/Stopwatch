@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#addStopwatch {
+  background-color: #000000c4;
+  color: white;
+}
+
+.stopwatch {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.nameInput {
+  font-size: 1.2rem;
+  padding: 6px;
+  width: 60%;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.time {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.controls button {
+  background-color: #2196f3;
+  color: white;
+}
+
+.controls button.start {
+  background-color: #0fb152;
+}
+
+.controls button.stop {
+  background-color: #f44336;
+}
+
+.controls button.reset {
+  background-color: #ff9800;
+}
