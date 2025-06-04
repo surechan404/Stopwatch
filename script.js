@@ -80,3 +80,13 @@ function createStopwatch() {
     updateDisplay();
   };
 }
+
+        // Add an event listener to the window object for beforeunload
+window.addEventListener('beforeunload', function (event) {
+  // Custom message for some browsers (e.g., Chrome), but modern browsers ignore custom text
+  const confirmationMessage = 'Are you sure you want to leave? Changes you made may not be saved.';
+
+  // Display the confirmation dialog
+  event.returnValue = confirmationMessage; // Required for some browsers
+  return confirmationMessage; // For others like Chrome
+});
